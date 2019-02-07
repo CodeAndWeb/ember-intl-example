@@ -1,0 +1,16 @@
+download: |-
+  Laden sie  {type, select,
+      pro { {name} Professional}
+      trial {die Test-Version von {name}}
+      other { {name} }
+  } von unserer Webseite!
+flowers: |-
+  Du hast {itemCount, plural,
+    =0 {keine Blumen}
+    one {eine Blume}
+    other {{itemCount} Bluen}
+  }.
+greeting: 'Hallo {name}!'
+hello:
+  world: Hallo Welt!
+

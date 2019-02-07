@@ -1,5 +1,20 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<h1>{{t "hello.world"}}</h1>
+
+<h1>{{t "greeting" name="Andreas"}}</h1>
 
 {{outlet}}
+
+<p>{{t "download" name="BabelEdit" type="pro"}}</p>
+<p>{{t "download" name="BabelEdit" type="trial"}}</p>
+
+{{t "flowers" itemCount=0}}<br>
+{{t "flowers" itemCount=1}}<br>
+{{t "flowers" itemCount=4}}<br>
+
+<div>
+  {{#each selections as |model|}}
+    <button class={{if model.active "active"}} {{action "changeLocale" model.locale}}>
+      {{model.locale}}
+    </button>
+  {{/each}}
+</div>

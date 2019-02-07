@@ -1,0 +1,16 @@
+download: |-
+  Download {type, select,
+      pro { {name} (full version) }
+      trial { the free trial of {name} }
+      other { {name} }
+  } from our web page!
+flowers: |-
+  You have {itemCount, plural,
+    =0 {no flowers}
+    one {1 flower}
+    other {{itemCount} flowers}
+  }.
+greeting: 'Hello {name}!'
+hello:
+  world: Hello world!
+
