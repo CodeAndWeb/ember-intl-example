@@ -4,7 +4,7 @@ This short is an example application used in the tutorial
 [How to translate your Ember.js application with ember-intl](https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-ember-app-with-enber-intl)
 
 <a href="https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-ember-app-with-enber-intl">
-![How to translate your Ember.js app with ember-intl](https://www.codeandweb.com/blog/2019/02/07/how-to-translate-your-ember-app-with-enber-intl/_opengraph-image.png)
+<img alt="How to translate your Ember.js app with ember-intl" src="https://www.codeandweb.com/blog/2019/02/07/how-to-translate-your-ember-app-with-enber-intl/_opengraph-image.png"/>
 </a>
 
 ## Installation of the example project
